@@ -4,12 +4,15 @@
 }
 
 ul{
+    position: fixed;
+    width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(185, 91, 122);
+    background-color: #b95b7a;
     max-height: max-content;
+    
 }
 
 li{
@@ -30,5 +33,4 @@ li a:hover{
 }
 .active{
     background-color: rgb(189, 131, 153);
-    color: rgb(0, 0, 0);
 }
