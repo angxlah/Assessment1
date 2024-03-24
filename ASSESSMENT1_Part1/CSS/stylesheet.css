@@ -1,18 +1,34 @@
 *{
+    overflow: hidden;
     margin: 0;
 }
 
 ul{
     list-style: none;
-
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(185, 91, 122);
+    max-height: max-content;
 }
 
 li{
- float: left;
+    float: left;   
 }
 
 li a{
     display: block;
     text-align: center;
     text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+}
+
+li a:hover{
+    background-color: black;
+    color: palevioletred;
+}
+.active{
+    background-color: rgb(189, 131, 153);
+    color: rgb(0, 0, 0);
 }
